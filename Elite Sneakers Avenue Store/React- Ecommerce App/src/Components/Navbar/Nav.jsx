@@ -5,7 +5,7 @@ const Nav = ({totalItems}) => {
   const Location = useLocation()
 
   return (
-    <nav className="fixed w-full h-16 flex justify-between items-center ps-10 pe-16 border bg-white bg-opacity-50 backdrop-blur-[5px]">
+    <nav className="fixed w-full h-16 flex justify-between items-center ps-10 max-sm:ps-5 pe-16 max-sm:pe-5 border bg-white bg-opacity-50 backdrop-blur-[5px] max-[380px]:py-10">
         <Link to={'/'}>
           <h1 className="text-xl font-bold font-montserrat">Elite Sneakers Avenue</h1>
         </Link>

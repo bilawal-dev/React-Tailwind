@@ -65,7 +65,7 @@ const App = () => {
 
   return (
     <Router>
-        <div className="w-screen h-screen">
+        <div className="w-full h-screen">
             <header className="pb-20">
               <Nav totalItems={cart.total_items}/>
             </header>
