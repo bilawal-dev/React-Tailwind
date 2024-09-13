@@ -1,8 +1,26 @@
-# React + Vite
+# ✅ Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Todo List App is a learning project built with React and Tailwind CSS. It utilizes localStorage for data storage, providing a practical way to manage tasks and enhance your understanding of React concepts and logic.
 
-Currently, two official plugins are available:
+## 🌐 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Check out the live preview of the project here.](https://itodo-list.netlify.app/)
+
+## ✨ Features
+
+- **Add and Remove Tasks:** Easily add new tasks and remove completed or unnecessary ones.
+- **Mark Tasks as Completed:** Track the completion status of each task.
+- **Update Tasks:** Modify existing tasks to reflect changes or corrections.
+- **Persistent Data Storage:** Tasks are stored in localStorage, so your list is preserved across page reloads.
+- **Responsive Design:** The app is designed to work seamlessly on various devices, including desktops, tablets, and mobile phones.
+- **Clean and Intuitive UI:** A minimalist interface for efficient task management.
+
+## 🛠️ Technologies Used
+
+- **React:** A JavaScript library for building dynamic user interfaces.
+- **Tailwind CSS:** A utility-first CSS framework for rapid and responsive design.
+- **localStorage:** For storing task data persistently in the browser.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for more information.
