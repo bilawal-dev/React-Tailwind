@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+}

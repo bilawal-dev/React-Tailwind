@@ -1,0 +1,17 @@
+-> In your useEffect hooks:
+ - The first hook loads the stored tasks from localStorage when the component mounts.
+ - The second hook saves the tasks to localStorage whenever tasks changes.
+
+-> JSON (JavaScript Object Notation) is a lightweight data format used for storing and transporting data. 
+   It's designed to be easy to read and write for humans, and easy to parse and generate for machines.
+   JSON represents data as a string in a structured format (like an object or array) with key-value pairs.
+
+ - Without JSON: You can directly store and retrieve simple strings in localStorage.
+ - With JSON: You need to use JSON.stringify and JSON.parse to handle more complex data types (like arrays or objects) when working with localStorage.-
+
+-> In your current React app, since you're storing an array of tasks, JSON is necessary to handle the conversion between the array and the string format that localStorage requires.
+
+- JSON.stringify: Converts a JavaScript object or array into a JSON string.
+- JSON.parse: Converts a JSON string back into a JavaScript object or array.
+
+-> ReactStrictMode May Interfere With Code That Interacts With LocaleStorage or Similar APIs Because It useEffect() Twice Resulting In Strange Behaviour

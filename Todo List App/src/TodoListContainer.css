@@ -1,0 +1,137 @@
+.todoListContainer{
+    height: fit-content;
+    width: 38%;
+    margin-top: 8%;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 1rem .5rem rgb(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 5rem 3rem 2rem 3rem;
+    position: relative;
+}
+
+
+.todoListHeadingContainer{
+    display: flex;
+    place-items: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+.todoListHeadingContainer h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+.todoListHeadingContainer img{
+    height: 3.5rem;
+}
+
+
+.todoListInputContainer{
+    margin-top: 2rem;
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.todoListInputContainer input{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 64%;
+    padding:0rem 4.7rem 0rem 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    color: black;
+}
+.todoListInputContainer button{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 100%;
+    width: 30%;
+    background-color: orange;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover{
+        box-shadow: 2px 2px 5px 1px rgb(0, 0, 0, .1);
+    }
+}
+
+
+.task{
+    display: flex;
+    place-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.task img{
+    height: 2rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+}
+.task h1{
+    font-size: 1.5rem;
+    font-weight: normal;
+    cursor: pointer;
+    margin-left: 3rem;
+    max-width: 80%;
+}
+.task .taskUpdate{
+    font-size: 1.5rem;
+    font-weight: 100;
+    border: none;
+    border-bottom: 1px solid rgba(119, 136, 153, 0.4);
+    outline: none;
+    width: 75%;
+    margin-left: 3rem;
+}
+.task i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.task .updateTaskBtn{
+    position: absolute;
+    top: 0%;
+    right: 10%;
+}
+.task .removeTaskBtn{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transition: all 0.3s;
+
+    &:hover{
+        color: orange;
+    }
+}
+
+.todoListEndButtons button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    padding: .8rem;
+    border-radius: .5rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
