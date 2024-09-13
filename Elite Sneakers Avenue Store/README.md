@@ -4,7 +4,7 @@ Elite Sneakers Avenue is an e-commerce store for sneakers, utilizing the Commerc
 
 ## 🌐 Live Preview
 
-[Check out the live preview of the project here.](https://elite-sneakers-avenue.netlify.app/)
+[Check out the live preview of the project here.](https://elite-sneakers-avenue.netlify.app/){:target="_blank"}
 
 ## ✨ Features
 
@@ -30,4 +30,4 @@ Elite Sneakers Avenue is an e-commerce store for sneakers, utilizing the Commerc
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT){:target="_blank"} file for more information.
